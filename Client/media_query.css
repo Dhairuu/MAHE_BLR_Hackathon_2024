@@ -1,0 +1,41 @@
+@media (max-width:600px) {
+    nav{
+        display: none;
+    }
+    .svg-Appointment {
+        display: none;
+    }
+    .Section-Appointment {
+        grid-template-columns: 100%;
+        padding-top: 5rem;
+        /* place-content: ; */
+        height: 30vh;
+    }
+    .Section-Appointment div{
+        padding-top: 0;
+    }
+    .Section-Appointment div h3 {
+        font-size: 30px;
+    }
+    #move-MedicalRecords div>h2 {
+        font-size: 30px;
+    }
+    .slides {
+        height: 321px;
+    }
+    .modal-content {
+        grid-template-columns: 1fr;
+    }
+    .image {
+        display: none;
+    }
+    .mobile-navbar {
+        background-color: aquamarine;
+        position: sticky;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        height: 30px;
+        
+    }
+}

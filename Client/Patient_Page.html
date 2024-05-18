@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Patient Page</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="Page.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="stylesheet" href="media_query.css">
+    <link
+      href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=Climate+Crisis&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Saira+Condensed:wght@100;200;300;400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+</head>
+<body>
+  <div class="record-view hidden ">
+    <div class="record-content ">
+      <iframe class="pdf" src="Module 5 (1).pdf" frameborder="0"></iframe>
+    </div>
+  </div>
+  <div id="myModal" class="modal hidden">
+    <div class="modal-content">
+      <div class="image">
+        <img src="Online_Calendar_SVG.svg" alt="" srcset="">
+      </div>
+      <div class="form">
+        <h2>Fill in the information</h2>
+        <form action="#" class="info-form">
+          <div>
+            <label for="doc-name">Doctor:</label>
+            <select name="" id="doc-name">
+              <option value="Sajan">Doc1</option>
+              <option value="Bicky">Doc2</option>
+              <option value="Priyanshu">Doc3</option>
+              <option value="Harshit">Doc4</option>
+              <option value="Dhairya">Doc5</option>
+            </select>
+          </div>
+          <div>
+            <label for="issue-text">Fill in the issue:</label>
+            <textarea name="" id="issue-text" cols="30" rows="10" placeholder="Please type your issue here :)"></textarea>
+          </div>
+          <div>
+            <label for="appointment-date">Date:</label>
+            <input type="date" name="" id="appointment-date">
+          </div>
+          <div>
+            <label for="time-slots">Time Slots:</label>
+            <select name="" id="time-slots">
+              <option value="10:00">10:00</option>
+              <option value="10:30">10:30</option>
+              <option value="11:00">11:00</option>
+              <option value="11:30">11:30</option>
+              <option value="12:00">12:00</option>
+            </select>
+          </div>
+          <button id="modal-submit-btn" class="btn">SUBMIT</button>
+        </form>
+      </div>
+    </div>
+  </div>
+    <div class="Container">
+        <div class="Page">
+            <nav id="" class="navbar">
+                <h2>Aloo Tikki</h2>
+                <span class="drop">Name<i class='bx bx-chevron-down'></i>
+                    <ul class="menu member-menu">
+                        <li>Member 1</li>
+                        <li>Member 2</li>
+                        <li>Member 3</li>
+                        <li>Member 4</li>
+                    </ul>
+                </span>
+                <ul>
+                    <li><a href="#Home">Home</a></li>
+                    <li><a href="#move-MedicalRecords">Medical Records</a></li>
+                    <li><a href="#move-TestRecords">Test Reports</a></li>
+                    <li>
+                        <i class='bx bxs-user-circle drop'>
+                            <ul class="menu user-menu">
+                                <li>Profile</li>
+                                <li>Logout</li>
+                            </ul>
+                        </i>
+                        
+                    </li>
+                </ul>
+            </nav>
+            <div id="Home" class="Section-Appointment">
+                <img class="svg-Appointment" src="Appointment.svg" alt="">
+                <div>
+                    <h3>Book Your Appointments here</h3>
+                    <button id="book-btn" class="btn margin-top-10">Book now</button>
+                </div>
+            </div>
+            <div id="move-MedicalRecords"  class="Section-MedicalRecords">
+                <div>
+                    <h2>< Medical Records ></h2>
+                    <h6><a href="">View All</a></h6>
+                </div>
+                <div class="slides">
+                    <div class="slide">
+                      <div class="grid-Records">
+                        <span>Doctor:</span>
+                        <span>Dhairya</span>
+                        <span>Diagnosis:</span>
+                        <span>Cough</span>
+                        <span>Date:</span>
+                        <span>06-04-2024</span>
+                        <span>Time:</span>
+                        <span>02:14 AM</span>
+                        <div class="Show-more">Show more</div>
+                      </div>
+                    </div>
+                    <div class="slide">
+                      <div class="grid-Records">
+                        <span>Doctor:</span>
+                        <span>Dhairya</span>
+                        <span>Diagnosis:</span>
+                        <span>Cough</span>
+                        <span>Date:</span>
+                        <span>06-04-2024</span>
+                        <span>Time:</span>
+                        <span>02:14 AM</span>
+                        <div class="Show-more">Show more</div>
+                      </div>
+                    </div>
+                    <div class="slide">
+                      <div class="grid-Records">
+                        <span>Doctor:</span>
+                        <span>Dhairya</span>
+                        <span>Diagnosis:</span>
+                        <span>Cough</span>
+                        <span>Date:</span>
+                        <span>06-04-2024</span>
+                        <span>Time:</span>
+                        <span>02:14 AM</span>
+                        <div class="Show-more">Show more</div>
+                      </div>
+                    </div>
+                    <div class="slide">
+                      <div class="grid-Records">
+                        <span>Doctor:</span>
+                        <span>Dhairya</span>
+                        <span>Diagnosis:</span>
+                        <span>Cough</span>
+                        <span>Date:</span>
+                        <span>06-04-2024</span>
+                        <span>Time:</span>
+                        <span>02:14 AM</span>
+                        <div class="Show-more">Show more</div>
+                      </div>
+                    </div>
+            </div>
+
+            <div id="move-TestRecords" class="Section-TestRecords margin-top-10">
+                <div>
+                    <h2>< Test Records ></h2>
+                    <h6><a href="">View All</a></h6>
+                </div>
+                <div class="slides">
+                    <div class="slide">
+                      <div class="grid-Records">
+                        <span>Doctor:</span>
+                        <span>Dhairya</span>
+                        <span>Diagnosis:</span>
+                        <span>Cough</span>
+                        <span>Date:</span>
+                        <span>06-04-2024</span>
+                        <span>Time:</span>
+                        <span>02:14 AM</span>
+                        <div class="Show-more">Show more</div>
+                      </div>
+                    </div>
+                    <div class="slide">
+                      <div class="grid-Records">
+                        <span>Doctor:</span>
+                        <span>Dhairya</span>
+                        <span>Diagnosis:</span>
+                        <span>Cough</span>
+                        <span>Date:</span>
+                        <span>06-04-2024</span>
+                        <span>Time:</span>
+                        <span>02:14 AM</span>
+                        <div class="Show-more">Show more</div>
+                      </div>
+                    </div>
+                    <div class="slide">
+                      <div class="grid-Records">
+                        <span>Doctor:</span>
+                        <span>Dhairya</span>
+                        <span>Diagnosis:</span>
+                        <span>Cough</span>
+                        <span>Date:</span>
+                        <span>06-04-2024</span>
+                        <span>Time:</span>
+                        <span>02:14 AM</span>
+                        <div class="Show-more">Show more</div>
+                      </div>
+                    </div>
+                    <div class="slide">
+                      <div class="grid-Records">
+                        <span>Doctor:</span>
+                        <span>Dhairya</span>
+                        <span>Diagnosis:</span>
+                        <span>Cough</span>
+                        <span>Date:</span>
+                        <span>06-04-2024</span>
+                        <span>Time:</span>
+                        <span>02:14 AM</span>
+                        <div class="Show-more">Show more</div>
+                      </div>
+                    </div>
+            </div>
+          </div>
+        </div>
+        <footer>
+          <div class="mobile-navbar">
+            
+          </div>
+        </footer>
+    <script defer src="index.js">
+    </script>
+    <script>
+      let date_value = document.querySelector('#time-slots')
+      let doc_name = document.querySelector('#doc-name')
+      let AppoointmentDate = document.querySelector('#appointment-date')
+      let IssueText = document.querySelector('#issue-text')
+      let modalSubmit = document.querySelector('#modal-submit-btn')
+      modalSubmit.addEventListener('click',function modalSubmition(){
+        console.log('Time Slot :',(date_value.value));    
+        console.log('Doctor Name :',(doc_name.value));  
+        console.log('Appointment Date:',AppoointmentDate.value);  
+        console.log('Issue is\n',IssueText.value)
+      });
+    </script>
+</body>
+</html>

@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Doctor Credentials</title>
+    <link rel="stylesheet" href="index.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=Climate+Crisis&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Saira+Condensed:wght@100;200;300;400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="Container">
+      <div class="Login">
+        <img
+          class="Stock-Images"
+          src="Signup_page_Photo-1.jpg"
+          alt="Stock Images"
+          srcset=""
+        />
+        <div class="margin-btm-1 small login-wrap">
+          <h2>Doctor Credentials</h2>
+          <form action="Doctor_Page.html" class="signup-form" onsubmit="return validateDoctorSignupForm()">
+            <div class="row">
+              <div class="col">
+                <div class="form-element">
+                  <label for="Doctor_name" class="label">Name</label>
+                  <input id="Doctor_name" placeholder="Name" type="text" class="form-control" />
+                </div>
+              </div>
+              <div class="col">
+                <div class="form-element">
+                  <label for="Doctor_state" class="label">State</label>
+                  <input id="Doctor_state" placeholder="State" type="text" class="form-control" />
+                </div>
+              </div>
+              <div class="col">
+                <div class="form-element">
+                  <label for="Doctor_city" class="label">City</label>
+                  <input id="Doctor_city" placeholder="City" type="text" class="form-control" />
+                </div>
+              </div>
+              <div class="col">
+                <div class="form-element">
+                  <label for="Doctor_pincode" class="label">Pin Code</label>
+                  <input id="Doctor_pincode" placeholder="Pin Code" type="text" class="form-control" />
+                </div>
+              </div>
+              <div class="col">
+                <div class="form-element">
+                  <label for="Doctor_phone" class="label">Phone Number</label>
+                  <input id="Doctor_phone" placeholder="Phone number" type="text" class="form-control" />
+                </div>
+              </div>
+              <div class="col">
+                <div class="form-element">
+                  <label for="Doctor_experience" class="label">Experience</label>
+                  <input id="Doctor_experience" placeholder="E.g: 8 Years of experience" type="text" class="form-control" />
+                </div>
+              </div>
+              <button id="sign_in" class="btn">Submit</button>
+            </div>
+          </form>          
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="index.js"></script>
+  </body>
+</html>
